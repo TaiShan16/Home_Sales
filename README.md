@@ -20,3 +20,6 @@ In this academic project, I employ SparkSQL to analyze a dataset of home sales d
 5. I further optimize data processing by partitioning the formatted Parquet home sales data using the "date_built" field. I create a temporary table to store this data and execute a query filtering out view ratings with an average price greater than or equal to $350,000. Similar to the previous step, I measure the runtime and compare it to the uncached runtime, evaluating the effectiveness of partitioning and temporary table creation.
 
 By employing Spark's capabilities, this project demonstrates how SparkSQL can be used to efficiently extract key metrics from home sales data. Through the creation of temporary views, partitioning, and caching operations, the project enhances data processing and facilitates effective data analysis.
+
+### Result
+The initial runtime recorded is 0.8110 seconds, followed by the second runtime of 0.6370 seconds after clearing the cache. Lastly, the third runtime achieved is 0.4646 seconds by utilizing partitioning in Parquet. Based on these observations, it can be concluded that partitioning Parquet yields the most effective method for enhancing data extraction efficiency.
