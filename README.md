@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this academic project, I employ SparkSQL to analyze a dataset of home sales data and extract key metrics. The following steps outline the process:
+In this project, I employ SparkSQL to analyze a dataset of home sales data and extract key metrics. The following steps outline the process:
 
 1. Utilizing SparkSQL, I create temporary views that enable SQL-like querying on the dataset. I execute queries to answer specific questions, including:
 
