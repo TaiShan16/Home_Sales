@@ -24,11 +24,11 @@ By employing Spark's capabilities, this project demonstrates how SparkSQL can be
 ### Result
 The initial runtime recorded is 0.8110 seconds, followed by the second runtime of 0.6370 seconds after clearing the cache. Lastly, the third runtime achieved is 0.4646 seconds by utilizing partitioning in Parquet. Based on these observations, it can be concluded that partitioning Parquet yields the most effective method for enhancing data extraction efficiency.
 
-##### 1st Run Time
+#### 1st Run Time
 ![alt text](https://github.com/TaiShan16/Home_Sales/blob/main/Image/1st%20run%20time.JPG)
 
-##### 2nd Run Time (after clearing cache)
+#### 2nd Run Time (after clearing cache)
 ![alt text](https://github.com/TaiShan16/Home_Sales/blob/main/Image/after%20cache%20runtim.JPG)
 
-##### 3rd Run Time (partitioning Parquet)
+#### 3rd Run Time (partitioning Parquet)
 ![alt text](https://github.com/TaiShan16/Home_Sales/blob/main/Image/Partition%20run%20time.JPG)
